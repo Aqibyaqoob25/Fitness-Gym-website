@@ -1,0 +1,88 @@
+body{
+    background-image:url('../images/abs.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Baloo Da 2', cursive;
+}
+.left{
+    position: absolute;
+    top: 23px;
+    left: 35px;
+}
+.mid{
+    display: block;
+    width: 580px;
+    margin: 43px 750px;
+}
+.right{
+    position: absolute;
+    top: 70px;
+    right: 200px;
+}
+.mid li {
+    display: inline-block;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+li a:hover{
+    color: gray;
+}
+.left img{
+    width: 80px;
+    height: 50px;
+}
+.logo{
+    background-color: black;
+    line-height: 0;
+}
+.right .btn{
+    background-color: black;
+    color: white;
+    margin: 12px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 7px;
+    cursor: pointer;
+}
+.right .btn:hover{
+    background-color: rgb(44, 39, 39);
+}
+.container{
+    display: block;
+    width: 500px;
+    margin: 60px 100px 35px 715px ;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 50px;
+    text-align: center;
+}
+.input-group{
+    margin: 50px;
+}
+.input-group input{
+    padding: 8px;
+    margin: 5px;
+    width: 370px;
+    border-radius: 6px;
+    text-align: center;
+}
+.input-group .btn{
+    display: block;
+    padding:4px ;
+    margin: 4px;
+    width: 390px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.input-group .btn:hover{
+    background-color: rgb(44, 39, 39);
+}
